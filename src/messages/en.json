@@ -1,0 +1,40 @@
+{
+  "sidebar": {
+    "play": "Play",
+    "puzzle": "Puzzle",
+    "learn": "Learn",
+    "watch": "Watch",
+    "news": "News",
+    "social": "Social"
+  },
+  "general": {
+    "signUp": "Sign Up",
+    "logIn": "Log In"
+  },
+  "root": {
+    "subHeader-p1": "Play",
+    "subHeader-p2": "Chess",
+    "subHeader-p3": "Online on the #1 Site!",
+    "gamesToday": "Games Today",
+    "playingNow": "Playing Now",
+    "playOnline": "Play Online",
+    "playComputer": "Play Computer",
+    "register": "Register",
+    "header-p1": "Enter your email and",
+    "header-p2": "a password"
+  },
+  "errors": {
+    "not-valid": "{name} is not valid!",
+    "required": "{name} is required field",
+    "email-not-valid": "Email is not valid",
+    "email-required": "Email is not required",
+    "password-min": "Password should be at least 8 chars",
+    "password-not-valid": "Password is not valid",
+    "password-required": "Password is required field"
+  },
+  "server": {
+    "user-exists": "User is already exists",
+    "user-created": "User successfully created",
+    "unexpected-error": "Unexpected server error"
+  }
+}

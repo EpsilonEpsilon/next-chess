@@ -1,7 +1,7 @@
 "use client";
 
 import {InputComponent, LogoComponent, PrimaryButtonComponent} from "@/shared/ui";
-import Router from "@/routes/router";
+import RouterHelper from "@/router/routerHelper";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
 import {styled} from "@panda/jsx";
@@ -14,7 +14,7 @@ const Register = ()=>{
     return (
        <Container>
            <Content>
-               <LogoComponent href = {Router.routes.initial}/>
+               <LogoComponent href = {RouterHelper.routes.initial}/>
                <Header>{t("root.header-p1")} <br/> {t("root.header-p2")}</Header>
                <Form onSubmit={onSubmit}>
                    <InputContainer>

@@ -1,6 +1,6 @@
 import {styled} from "@panda/jsx";
 import {LogoComponent, PrimaryButtonComponent} from "@/shared/ui";
-import Router from "@/routes/router";
+import RouterHelper from "@/router/routerHelper";
 import Link from "next/link";
 import items from "@/components/common/sidebar/items";
 import {getTranslations} from "next-intl/server";
@@ -10,12 +10,12 @@ const Sidebar = async ()=>{
     return (
         <Container>
             <SidebarItem>
-                <StyledLogo href = {Router.routes.initial}/>
+                <StyledLogo href = {RouterHelper.routes.initial}/>
             </SidebarItem>
             <SidebarLinkList>
                 {items.map(item => <SidebarListItem key = {item.name}>
                     <Icon style = {{backgroundPosition:item.position}}/>
-                    <SidebarLink href={Router.routes[item.href]}>{t(item.name)}</SidebarLink>
+                    <SidebarLink href={RouterHelper.routes[item.href]}>{t(item.name)}</SidebarLink>
                 </SidebarListItem>)}
             </SidebarLinkList>
             <ButtonContainer>
@@ -23,7 +23,7 @@ const Sidebar = async ()=>{
                     size = "small"
                     variant = "dark"
                 >
-                    <Link href={Router.routes.register}>
+                    <Link href={RouterHelper.routes.register}>
                         {t("general.signUp")}
                     </Link>
                 </StyledButton>

@@ -10,7 +10,7 @@ import {NextIntlClientProvider} from "next-intl";
 import "../../styles/globals.css";
 import "@panda/styles.css";
 import 'react-toastify/dist/ReactToastify.css';
-import "reflect-metadata"
+
 import {RootProvider} from "@/lib/providers";
 
 const inter = Inter({ subsets: ["latin"] });

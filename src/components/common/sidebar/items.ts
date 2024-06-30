@@ -1,10 +1,10 @@
 import {Paths} from "@/types/next-int";
-import Router from "@/routes/router";
+import RouterHelper from "@/router/routerHelper";
 
 
 
 
-const items:{name:Paths<IntlMessages>, position:string, href:keyof typeof Router.routes}[] = [
+const items:{name:Paths<IntlMessages>, position:string, href:keyof typeof RouterHelper.routes}[] = [
     {
         name:"sidebar.play",
         position:"-22px -78px",

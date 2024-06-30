@@ -4,12 +4,14 @@ import {ValidationError} from "yup";
 import response, {ActionResponseType, StatusCode} from "@/lib/response";
 import {registerSchema} from "@/shared/schema";
 import prisma from "@/lib/db/prisma";
-import jwt from "jsonwebtoken";
 import {hashHelper} from "@/shared/helpers";
 import {cookies} from "next/headers";
 import {IUser} from "@/lib/db/types";
 import getTypedMessage from "@/shared/helpers/getTypedMessage";
 import {getTranslations} from "next-intl/server";
+import {container} from "@/services/container";
+import {JsonTokenService} from "@/services";
+
 
 type Response = ActionResponseType<IUser>
 const registerAction = async (user:IUser):Promise<Response>=>{
@@ -23,7 +25,9 @@ const registerAction = async (user:IUser):Promise<Response>=>{
         const {salt:secret, password:pass, id:uid,
             ...createdUser}
             = await prisma.user.create({data:{...copiedUser, salt, password}})
-        const token = jwt.sign(createdUser, process.env.JWT_SECRET!, {expiresIn:"7d"});
+
+        const jwt = container.get<JsonTokenService>("JWT");
+        const token = await jwt.sign(createdUser);
         cookies().set("token", token);
         return response.success(t(getTypedMessage("server.user-created")), createdUser as IUser);
     }catch (e){

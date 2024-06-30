@@ -3,7 +3,6 @@ import {styled} from "@panda/jsx";
 import chessboard from "@/../public/assets/img/chess-board.png"
 import Image from "next/image";
 import {PrimaryButtonComponent} from "@/shared/ui";
-import Link from "next/link";
 
 const Root = async ()=>{
     const t = await getTranslations()
@@ -17,7 +16,7 @@ const Root = async ()=>{
                     alt={"chess-board"}/>
                 <Group>
                     <Header>
-                        <span>{t("root.subHeader-p1")}</span>
+                        <span style={{marginRight:"5px"}}>{t("root.subHeader-p1")}</span>
                         <span>{t("root.subHeader-p2")} </span>
                         <span>{t("root.subHeader-p3")}</span>
                     </Header>

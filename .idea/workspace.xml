@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90a463bf-27a5-47f5-a8a2-26ea0c7210ca" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2hjq9KDsnZ4UEiEqPn1s6jv6msU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/epsilon/Desktop/Projects/PetProjects/next-chess/src/shared/helpers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/epsilon/Desktop/Projects/PetProjects/next-chess/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/helpers" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/__tests__/services" />
+      <recent name="$PROJECT_DIR$/src/services/common" />
+      <recent name="$PROJECT_DIR$/public/assets/img" />
+      <recent name="$PROJECT_DIR$/src/components/common/sidebar" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Services test" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/services.test.ts" />
+      <test-names>
+        <test-name value="Services test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Vitest.Services test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90a463bf-27a5-47f5-a8a2-26ea0c7210ca" name="Changes" comment="" />
+      <created>1718117681770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718117681770</updated>
+      <workItem from="1718117682828" duration="1756000" />
+      <workItem from="1718132360627" duration="567000" />
+      <workItem from="1718136400479" duration="601000" />
+      <workItem from="1718217770381" duration="6842000" />
+      <workItem from="1718265621268" duration="1633000" />
+      <workItem from="1718293711196" duration="3246000" />
+      <workItem from="1718297357911" duration="642000" />
+      <workItem from="1718316374621" duration="2753000" />
+      <workItem from="1718362219008" duration="161000" />
+      <workItem from="1718362987566" duration="10000" />
+      <workItem from="1718368011677" duration="1661000" />
+      <workItem from="1718380881790" duration="10345000" />
+      <workItem from="1718444226477" duration="1903000" />
+      <workItem from="1718453349740" duration="1023000" />
+      <workItem from="1718454383966" duration="1165000" />
+      <workItem from="1718456742756" duration="640000" />
+      <workItem from="1718459290257" duration="2167000" />
+      <workItem from="1718468806131" duration="7000" />
+      <workItem from="1718468815585" duration="115000" />
+      <workItem from="1718468938544" duration="1411000" />
+      <workItem from="1718470391452" duration="3241000" />
+      <workItem from="1718484199536" duration="714000" />
+      <workItem from="1718539972443" duration="6385000" />
+      <workItem from="1718546583580" duration="79000" />
+      <workItem from="1718546979235" duration="7916000" />
+      <workItem from="1718568470204" duration="2816000" />
+      <workItem from="1718615864133" duration="23000" />
+      <workItem from="1719599272208" duration="1908000" />
+      <workItem from="1719661994297" duration="7650000" />
+      <workItem from="1719735851476" duration="20833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/root/root.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/register/register.tsx</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

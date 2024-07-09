@@ -23,6 +23,10 @@
     "header-p1": "Enter your email and",
     "header-p2": "a password"
   },
+  "login": {
+    "header": "Sign up into account",
+    "submit": "Sign up"
+  },
   "errors": {
     "not-valid": "{name} is not valid!",
     "required": "{name} is required field",
@@ -35,6 +39,8 @@
   "server": {
     "user-exists": "User is already exists",
     "user-created": "User successfully created",
-    "unexpected-error": "Unexpected server error"
+    "unexpected-error": "Unexpected server error",
+    "user-not-exists": "User don't exist",
+    "passwords-equality-error": "Incorrect password or email",
   }
 }

@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90a463bf-27a5-47f5-a8a2-26ea0c7210ca" name="Changes" comment="" />
+    <list default="true" id="90a463bf-27a5-47f5-a8a2-26ea0c7210ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/[locale]/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/login/useLogin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/actions/auth/signup.action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/errors/DbUserNotFound.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/errors/PasswordEqualityError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/errors/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/common/AuthorizationService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/sidebar/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/actions/auth/register.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/actions/auth/register.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routerHelper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routerHelper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/container.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/helpers/getTypedMessage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/helpers/hash.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/helpers/hashPwd.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/helpers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +39,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2hjq9KDsnZ4UEiEqPn1s6jv6msU" />
   <component name="ProjectViewState">
@@ -110,7 +132,10 @@
       <workItem from="1718615864133" duration="23000" />
       <workItem from="1719599272208" duration="1908000" />
       <workItem from="1719661994297" duration="7650000" />
-      <workItem from="1719735851476" duration="20833000" />
+      <workItem from="1719735851476" duration="20886000" />
+      <workItem from="1720366511561" duration="134000" />
+      <workItem from="1720463981891" duration="1040000" />
+      <workItem from="1720467477747" duration="6416000" />
     </task>
     <servers />
   </component>

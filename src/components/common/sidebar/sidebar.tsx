@@ -31,7 +31,9 @@ const Sidebar = async ()=>{
                     size = "small"
                     variant = "light"
                 >
-                    {t("general.logIn")}
+                    <Link href={RouterHelper.routes.login}>
+                        {t("general.logIn")}
+                    </Link>
                 </StyledButton>
             </ButtonContainer>
         </Container>

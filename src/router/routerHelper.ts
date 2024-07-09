@@ -1,10 +1,10 @@
 
-
 class RouterHelper {
     public static readonly  routes = {
-        initial:"/",
-        register:"/register",
-        home:"/home",
+        initial:  "/",
+        register: "/register",
+        home:     "/home",
+        login:    "/login",
     }
     public static getDefaultPrivate(){
         return RouterHelper.routes.home;
@@ -12,7 +12,9 @@ class RouterHelper {
     public static getDefaultPublic(){
         return RouterHelper.routes.initial
     }
-    public static readonly privateRoutes:string[] = [RouterHelper.routes.home] as const;
+    public static readonly privateRoutes: readonly string[] = [
+        RouterHelper.routes.home,
+    ] as const
 
     //-------Static------
 
